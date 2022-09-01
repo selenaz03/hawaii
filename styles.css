@@ -72,3 +72,43 @@ ul {
     background-color: rgb(27, 48, 70);
     color: white;
 }
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 56, 78);
+    color: rgb(166, 192, 211);
+    padding: 70px;
+    padding-top: 50px;
+}
+
+.islands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.infoTitle {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.bigIsland, .maui, .oahu, .kauai {
+    height: 100px;
+    width: auto;
+    border: 5px solid;
+    border-color: rgb(166, 192, 211);
+}
+
+.oneIsland {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    flex-shrink: 0;
+}
