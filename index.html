@@ -11,12 +11,12 @@
     <div class="header">
         <div><img class="logo" src="images/logo.png"></div>
         <ul class="headerLinks">
-                <li class="link">header link one</li>
-                <li class="link">header link two</li>
-                <li class="link">header link three</li>
+            <a href="#titleContainer"><li class="link">Home</li></a>
+            <a href="#infoContainer"><li class="link">Islands</li></a>
+            <a href="#callContainer"><li class="link">Book Now</li></a>
         </ul>
     </div>
-    <div class="titleContainer">
+    <div id="titleContainer">
         <div class="titleBoxLeft">
             <div class="title">Your Guide to Hawaii</div>
             <div class="titleDescription">The full guide to the best trip in Hawaii!</div>
@@ -26,25 +26,35 @@
             <img class="titlePicture" src="images/titlePicture.png">
         </div>
     </div>
-    <div class="infoContainer">
+    <div id="infoContainer">
         <div class="infoTitle">The Islands</div>
         <div class="islands">
             <div class="oneIsland">
                 <img class="bigIsland" src="images/bigisland.jpeg">
-                <div class="pictureText">Learn more about Big Island</div>
+                <a href="https://www.gohawaii.com/islands/hawaii-big-island"><div class="pictureText">Learn more about Big Island</div></a>
+                <!-- <div class="pictureText">Learn more about Big Island</div> -->
             </div>
             <div class="oneIsland">
                 <img class="maui" src="images/maui.jpg">
-                <div class="pictureText">Learn more about Maui</div>
+                <a href="https://www.gohawaii.com/islands/maui"><div class="pictureText">Learn more about Maui</div></a>
             </div>
             <div class="oneIsland">
                 <img class="oahu" src="images/oahu.jpg">
-                <div class="pictureText">Learn more about Oahu</div>
+                <a href="https://www.gohawaii.com/islands/oahu"><div class="pictureText">Learn more about Oahu</div></a>
             </div>
             <div class="oneIsland">
                 <img class="kauai" src="images/kauai.jpg">
-                <div class="pictureText">Learn more about Kauai</div>
+                <a href="https://www.gohawaii.com/islands/kauai"><div class="pictureText">Learn more about Kauai</div></a>
             </div>
+        </div>
+    </div>
+    <div id="callContainer">
+        <div class="callBox">
+            <div class="callLeft">
+                <div class="call">Book your Hawaiian Adventure Now</div>
+                <div class="callDescription">Hotels, flights, car rentals, experiences and more!</div>
+            </div>
+            <a href="https://www.hawaii.com/vacation-packages/"><button class="callButton">BOOK NOW</button></a>
         </div>
     </div>
 </body>
